@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Calculator_Project.Pan_De_Pensiones.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -44,8 +47,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Calculator.cs" />
+    <Compile Include="inheritance\address.cs" />
+    <Compile Include="inheritance\NttDataBase.cs" />
+    <Compile Include="inheritance\student.cs" />
     <Compile Include="Loops\PrintProduct.cs" />
     <Compile Include="Loops\Product.cs" />
+    <Compile Include="Plan De Pensiones\Datos.cs" />
+    <Compile Include="Plan De Pensiones\Operaciones.cs" />
+    <Compile Include="Plan De Pensiones\PdP.cs" />
+    <Compile Include="Plan De Pensiones\Program.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
